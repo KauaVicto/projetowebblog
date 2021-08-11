@@ -13,7 +13,7 @@
           <a class="nav-link" href="painel.php">Painel</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="painel.php">Posts</a>
+          <a class="nav-link" href="posts.php">Posts</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="categorias.php">Categorias</a>

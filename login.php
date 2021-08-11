@@ -27,6 +27,7 @@
             if($senha == $usuarioBD["senha"]){
                 $_SESSION["logado"] = true;
                 $_SESSION["usuario"] = $login;
+                $_SESSION["id_usuario"] = $usuarioBD['id'];
 
                 header("location: painel.php");
 
