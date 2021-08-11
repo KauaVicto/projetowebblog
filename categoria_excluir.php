@@ -9,9 +9,9 @@ require_once "includes/conectaBD.php";
         mysqli_stmt_bind_param($prepare, 'i', $id);
 
         if(mysqli_stmt_execute($prepare)){
-            $_SESSION['msg'] = "Categoria excluida com sucesso";
+            $_SESSION['msg'] = "Categoria excluida com sucesso.";
         }else{
-            $_SESSION['erro'] = "Categoria não pode ser excluida";
+            $_SESSION['erro'] = "Categoria não pode ser excluida.";
         }
     }
 
